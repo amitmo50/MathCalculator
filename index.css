@@ -1,0 +1,89 @@
+.main-title{
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    font-family: "Times New Roman";
+    background-image: url(http://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg);
+    color: white;
+    border: 2px solid #c497f5;
+}
+.main-content{
+    text-align: center;
+    width:100%;
+    height: 100%;
+
+}
+
+.controls-container{
+	font-weight: bolder;
+    font-size: 45px;
+    text-align: right;
+    float: right;
+    width: 14%
+
+}
+.controls-container .control-button{
+    text-align: center;
+    line-height: 80px;
+    background-color: #a58a90;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-style: solid;
+}
+.controls-container .control-button:hover{
+    background-color: #aaa;
+}
+.numbers-container{
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    width: 86%;
+    float: left;
+}
+.numbers-container .number-button{
+    width: 29%;
+    text-align: center;
+    line-height: 80px;
+    background-color: #7a82da;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+    border-style: solid;
+}
+
+.numbers-container .delete-button{
+    width: 70%;
+    text-align: center;
+    line-height: 80px;
+    background-color: #7a82da;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+    border-style: solid;
+}
+
+.numbers-container .number-button:hover,
+.numbers-container .delete-button:hover{
+    background-color: #aaa;
+}
+
+.result-container {
+    width: 98%;
+    margin: 10px 0;
+}
+
+.result-container input{
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+    font-size: 36px;
+    border: 3px solid gray;
+}
